@@ -37,7 +37,7 @@ function App() {
   const { isAuthenticated, user, message, error, loading } = useSelector(
     state => state.user
   );
-
+  //This is the App.Js file of the frontend project
   const dispatch = useDispatch();
   useEffect(() => {
     if (error) {
