@@ -13,7 +13,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { buySubscription } from '../../redux/actions/user';
 import { server } from '../../redux/store';
 import toast from 'react-hot-toast';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/bg.png';
 
 const Subscribe = ({ user }) => {
   const dispatch = useDispatch();

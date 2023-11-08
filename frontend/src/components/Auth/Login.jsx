@@ -38,7 +38,7 @@ const Login = () => {
               onChange={e => setEmail(e.target.value)}
               placeholder="abc@gmail.com"
               type={'email'}
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
             />
           </Box>
 
@@ -51,7 +51,7 @@ const Login = () => {
               onChange={e => setPassword(e.target.value)}
               placeholder="Enter Your Password"
               type={'password'}
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
             />
           </Box>
 

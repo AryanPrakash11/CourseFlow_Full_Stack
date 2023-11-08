@@ -45,7 +45,7 @@ const ChangePassword = () => {
             onChange={e => setOldPassword(e.target.value)}
             placeholder="Old Password"
             type={'password'}
-            focusBorderColor="yellow.500"
+            focusBorderColor="purple.500"
           />
 
           <Input
@@ -54,7 +54,7 @@ const ChangePassword = () => {
             onChange={e => setNewPassword(e.target.value)}
             placeholder="New Password"
             type={'password'}
-            focusBorderColor="yellow.500"
+            focusBorderColor="purple.500"
           />
 
           <Button

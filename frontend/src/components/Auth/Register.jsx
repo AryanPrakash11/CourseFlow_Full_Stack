@@ -77,7 +77,7 @@ const Register = () => {
               onChange={e => setName(e.target.value)}
               placeholder="abc"
               type={'text'}
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
             />
           </Box>
 
@@ -90,7 +90,7 @@ const Register = () => {
               onChange={e => setEmail(e.target.value)}
               placeholder="abc@gmail.com"
               type={'email'}
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
             />
           </Box>
 
@@ -103,7 +103,7 @@ const Register = () => {
               onChange={e => setPassword(e.target.value)}
               placeholder="Enter Your Password"
               type={'password'}
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
             />
           </Box>
 
@@ -114,7 +114,7 @@ const Register = () => {
               required
               id="chooseAvatar"
               type={'file'}
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
               css={fileUploadStyle}
               onChange={changeImageHandler}
             />

@@ -60,7 +60,7 @@ const Request = () => {
               onChange={e => setName(e.target.value)}
               placeholder="Abc"
               type={'text'}
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
             />
           </Box>
 
@@ -73,7 +73,7 @@ const Request = () => {
               onChange={e => setEmail(e.target.value)}
               placeholder="abc@gmail.com"
               type={'email'}
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
             />
           </Box>
 
@@ -85,7 +85,7 @@ const Request = () => {
               value={course}
               onChange={e => setCourse(e.target.value)}
               placeholder="Explain the course...."
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
             />
           </Box>
 

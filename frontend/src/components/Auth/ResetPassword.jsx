@@ -48,14 +48,14 @@ const ResetPassword = () => {
             onChange={e => setPassword(e.target.value)}
             placeholder="New Password"
             type={'password'}
-            focusBorderColor="yellow.500"
+            focusBorderColor="purple.500"
           />
 
           <Button
             isLoading={loading}
             type="submit"
             w={'full'}
-            colorScheme="yellow"
+            colorScheme="purple"
           >
             Reset Password
           </Button>

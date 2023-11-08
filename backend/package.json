@@ -26,5 +26,6 @@
     "validator": "^13.7.0"
   },
   "keywords": [],
+  "devDependencies": {},
   "description": ""
 }

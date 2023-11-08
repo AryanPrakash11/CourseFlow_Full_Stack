@@ -61,7 +61,7 @@ const Contact = () => {
               onChange={e => setName(e.target.value)}
               placeholder="Abc"
               type={'text'}
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
             />
           </Box>
 
@@ -74,7 +74,7 @@ const Contact = () => {
               onChange={e => setEmail(e.target.value)}
               placeholder="abc@gmail.com"
               type={'email'}
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
             />
           </Box>
 
@@ -86,7 +86,7 @@ const Contact = () => {
               value={message}
               onChange={e => setMessage(e.target.value)}
               placeholder="Your Message...."
-              focusBorderColor="yellow.500"
+              focusBorderColor="purple.500"
             />
           </Box>
 

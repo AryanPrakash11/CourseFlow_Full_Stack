@@ -88,7 +88,7 @@ const About = () => {
         </Text>
 
         <Link to="/subscribe">
-          <Button variant={'ghost'} colorScheme="yellow">
+          <Button variant={'ghost'} colorScheme="purple">
             Checkout Our Plan
           </Button>
         </Link>

@@ -33,16 +33,16 @@ const Home = () => {
             alignItems={['center', 'flex-end']}
             spacing="8"
           >
-            <Heading children="LEARN FROM THE EXPERTS" size={'2xl'} />
+            <Heading children="Be a job ready Programmer" size={'2xl'} />
             <Text
               fontSize={'2xl'}
               fontFamily="cursive"
               textAlign={['center', 'left']}
-              children="Find Valuable Content At Reasonable Price"
+              children="Get all the course at least cost"
             />
             <Link to="/courses">
-              <Button size={'lg'} colorScheme="yellow">
-                Explore Now
+              <Button size={'lg'} colorScheme="purple">
+                Get Course
               </Button>
             </Link>
           </VStack>

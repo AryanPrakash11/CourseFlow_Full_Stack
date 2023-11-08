@@ -35,14 +35,14 @@ const UpdateProfile = ({ user }) => {
             onChange={e => setName(e.target.value)}
             placeholder="Name"
             type={'text'}
-            focusBorderColor="yellow.500"
+            focusBorderColor="purple.500"
           />{' '}
           <Input
             value={email}
             onChange={e => setEmail(e.target.value)}
             placeholder="Email"
             type={'email'}
-            focusBorderColor="yellow.500"
+            focusBorderColor="purple.500"
           />
           <Button
             isLoading={loading}

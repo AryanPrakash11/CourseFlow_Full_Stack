@@ -131,7 +131,7 @@ const Courses = () => {
         onChange={e => setKeyword(e.target.value)}
         placeholder="Search a course..."
         type={'text'}
-        focusBorderColor="yellow.500"
+        focusBorderColor="purple.500"
       />
 
       <HStack
